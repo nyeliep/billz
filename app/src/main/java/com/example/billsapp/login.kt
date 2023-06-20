@@ -14,7 +14,7 @@ class login : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.registerBtn.setOnClickListener {
+        binding.loginBtn.setOnClickListener {
             startActivity(Intent(this, registration::class.java))
         }
 
